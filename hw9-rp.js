@@ -11,9 +11,9 @@ var projectIdentifier = "COMP484";
 
 // Attempt to reassign using incorrect casing
 // ProjectIdentifier = "JS_Advanced"; 
-// This will FAIL because JavaScript being case-sensitive.
+// This will FAIL because of JavaScript being CASE-Sensitive.
 // "ProjectIdentifier" is treated as a completely different variable name
-// and since it has not been declared, so it would show a ReferenceError.
+// and since it has not been declared, it would show a ReferenceError instead.
 
 // To fix it, correct reassignment using the proper variable name
 projectIdentifier = "JS_Advanced";
@@ -302,4 +302,5 @@ if (typeof dataInput === "number") {
 // Standard JavaScript code to inject an <h1> element
 var heading = document.createElement("h1");
 heading.innerHTML = "Interactive Layer Loaded";
+
 document.body.appendChild(heading);
